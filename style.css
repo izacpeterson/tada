@@ -16,8 +16,8 @@ body {
 button {
   padding: 20px;
   font-size: 64px;
-  width: 50vw;
-  height: 50vw;
+  width: 50vh;
+  height: 50vh;
   background-color: cornflowerblue;
   color: white;
   border: solid 10px white;
@@ -28,4 +28,10 @@ button {
 button:active {
   background-color: coral;
   transform: scale(1.2);
+}
+@media only screen and (max-width: 600px) {
+  button {
+    width: 50vw;
+    height: 50vw;
+  }
 }
